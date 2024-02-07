@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.login-page{
+
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../asdads.jpg);
+  background-image: 100%;
+  position: absolute;
+  
+}
+.window{
+
+  height: 300px;
+  width: 500px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 10px;
+  background-image: linear-gradient(rgb(142, 67, 240),rgb(236, 233, 233));
+
+  
+}
+.window:hover{
+  box-shadow: 1px 1px 38px rgb(215, 209, 214);
+  transition-duration: 0.3s;
+  
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.user{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pass{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 9px;
+
+}
+
+.join{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: rgb(8, 8, 8);
+  color: whitesmoke;
+  border: none;
+  height: 25px;
+  width: 100px;
+  cursor: pointer;
+  padding-top: 5px;
+  border-radius: 15px;
+
+}
+.join:hover{
+
+  box-shadow: 1px 5px 5px rgb(50, 51, 51);
+  transition-duration: 0.1s;
+  
+}
+:active.join{
+  background-color: rgb(219, 213, 213);    
+}
+.user label{
+  padding: 5px;
+}
+.pass label{
+  padding: 5px;
+}
+
+.forget{
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: right;
+  padding-right: 50px; 
+  
+  
+}
+.new{
+  display: flex;
+  justify-content:space-between;
+  padding-left: 30px;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 23px;
+}
+.new1{
+  color: black;
+}
+
+.create{
+
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+
+/* POP UP START */
+
+.overlay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(211, 200, 200, 0.534);
+  position:fixed;
+  top: 0;
+  
+
+}
+
+.win>button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+win>button:active{
+
+  background-color: rgb(212, 201, 201);
+}
+.window-1{
+  position: relative;
+  height: 370px;
+  width: 370px;
+  background-image: linear-gradient(rgb(144, 16, 230),rgb(255, 255, 255)) ;
+  
+
+  
+}
+.title-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.title{
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+
+}
+.user-info>div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  width: 300px;
+  border-radius: 9px;
+}
+.user-info>div>input{
+  padding: 5px;
+  
+
+}
+.save{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(98, 55, 55);
+  border: none;
+  
+}
+
+.save>button{
+  cursor: pointer;
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: rgba(128, 128, 128, 0.315);
+
+}
+.save>button:active{
+  color: white;
+  background-color: rgb(52, 210, 52);
+}
+
+.cancel{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cancel>button{
+  cursor: pointer;
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: rgba(128, 128, 128, 0.315);
+}
+
+.cancel>button:active{
+  color: white;
+  background-color: rgb(219, 49, 49);
+}
+
+.d-none{
+
+  display: none;
+}

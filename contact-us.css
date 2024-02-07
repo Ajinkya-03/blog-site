@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body,header,a,button{
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bar{
+  position: sticky;
+  top:0;
+  background-color: white;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1.2rem;
+  align-items: center;
+  border-bottom: 1px solid black;
+  box-shadow: 1px 1px 8px black;
+
+}
+.name{
+  color: gray;
+}
+
+
+.list{
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+}
+.list li{
+
+  justify-content: space-between;
+  padding: 0.1rem 0.5rem;
+  margin: 2px 8px;
+  
+}
+.list li:hover{
+  text-decoration: underline;
+  color: blue;
+}
+.list li:active{
+  transition: .1s;
+  text-decoration: underline;
+  color: rgb(129, 129, 139);
+}
+
+.btn-write{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-right: 75px;
+  background-color: rgb(0, 0, 255);
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: px;
+}
+.btn-write:hover{
+  box-shadow: 0px 0px 5px blue;
+}
+.btn-write:active{
+  background-color: rgb(186, 183, 183);
+}
+
+.btn-logout{
+
+  border: none;
+ background-color: rgb(254, 114, 114);
+  color: white;
+  cursor: pointer;
+  padding: 7px 7px;
+}
+.btn-logout:active{
+  background-color: rgb(186, 177, 177);
+}
+  
+  body {
+    font-family:Arial, Helvetica, sans-serif;
+    
+    background-image: radial-gradient(#8a40ce, #111);  
+    
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .form {
+    border: 2px solid white;
+    width: 400px;
+    padding: 20px;
+	  background-image: url(../images/modern-e-sport-gaming-background-glowing-purple-futuristic-premium-technology-vector.jpg);
+    transition: 0.4s;
+    background-color: rgb(183, 113, 245);
+  }
+  .form:hover{
+    border-radius: 25px;
+  }
+
+  .form h2 {  
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+
+  }
+  
+  .form input { 
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 2px solid #ccc;
+    outline: none;
+  }
+
+  .form input:hover{ 
+    opacity: 0.8;
+    border-color: #062d0f;
+    
+  }
+  .query{
+    width: 357px;
+    height: 90px;
+    resize: none;
+    
+  }
+  
+.submit{
+  
+  background-color: rgb(218, 211, 211);
+  font-weight: bold;
+  font-size: large;
+  transition: 0.3s;
+  padding: 7px 7px;
+  border-radius:12px;
+  margin-top: 7px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.submit:active{
+
+  background-color: rgb(101, 253, 14);
+
+}

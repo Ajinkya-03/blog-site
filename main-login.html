@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./main-login.css">
+<body>
+  <body class="login-page">
+
+    <section class="window">
+
+        <h3 class="text">USER LOGIN</h3>
+        <P  class="user"> 
+            
+            <label for="idform"><i class="fa fa-user-circle fa-1x" aria-hidden="true"></i></label>
+            <input id="luser" type="text" placeholder="Enter Email" name="idform">
+        </P>
+        <br>
+
+        <p  class="pass">
+            <label for="idform"><i class="fa fa-unlock" aria-hidden="true"></i>
+            </i></label>
+            <input id="lpass" type="password" placeholder="Password" name="idform">
+
+        </p>
+            
+        <p class="new">
+          <span>Don't have an account? <button type="button" id="create" class="create"> Create a new </button></span><span>
+              <a href="" class="forget">Forgot Password?</a>
+          </span>
+      </p>
+        </p>
+        <p  class="button">
+            <center><button id="lbtn" class="join"><i class="fa fa-sign-in" aria-hidden="true"></i> &nbsp;LOGIN</button></center>
+
+        </p>
+    </section>
+    
+    
+
+    <div class="overlay d-none" id="pop-up">
+      <div class="window-1">
+        <div class="title-1">
+
+          <section class="user-info">
+            <h1><center>SIGN UP</center></h1>
+            <div ">
+            <label for="">Name</label>
+            <input id="name" type="text" name="name" placeholder="Name" !required>
+    
+              </div>
+
+              <div > 
+                <label for="">Phoneno</label>
+                <input id="mobile" type="text" name="phoneno" placeholder="phoneno">
+              </div>
+              
+                <div >
+                  <label for="">Email</label>
+                  <input id="email" type="email" name="email" placeholder="email">
+      
+                </div>
+    
+              <div >
+                <label for="">password</label>
+                <input id="pass" type="password" name="password" placeholder="password">
+    
+              </div>
+
+
+              <div >
+                <label for="">confirm password</label>
+                <input id="cnf-pass" type="password" name="confirm passowrd"placeholder="confirm pass">
+              </div>
+              
+              <div class="save">
+                <button id="save"><i class="fa fa-floppy-o" aria-hidden="true"></i> save</button>
+              </div>
+
+              <div class="cancel">
+                <button id="cancelbtn" class="cancelbtn"><i class="fa fa-times" aria-hidden="true"></i> cancel</button>
+              </div>
+
+              </div>
+    
+              </div>
+            </div>
+        </section>
+          
+
+        </div>
+
+        
+    <script src="LOGIN.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Us</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./contact-us.css">
+
+
+<body>
+  <main class="area">
+      <header class="bar">
+          <section class="header">
+              <h1 class="name"><>DevNode.io</h1>
+              <ul class="list">
+                <li><a href="./my-feed.html">My Feed</a></li>
+                <li><a href="./aboutus.html">About Us</a></li>
+                <li><a href="./contact-us.html">Contact</a></li>             
+              </ul>
+              <button id="logout" class="btn-logout" > LOG-OUT <i class="fa fa-sign-out" aria-hidden="true"></i></button>
+              <button class="btn-write" ><a href="./write-blog.html">Write</a> <i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+              
+          </section>
+      </header>
+
+
+      <div class="form-container">
+        <div class="form">
+          <h2><i class="fa fa-envelope" aria-hidden="true"></i><b> Contact Us</b> </h2>
+          <input type="text" id="cnt-name" name="name" placeholder="First Name" required>
+          <input type="email" id="cnt-email" name="email" placeholder="Enter Email">
+          <input type="tel" id="cnt-mobile" name="mobile" placeholder="Enter Mobile">
+          <textarea class="query" id="cnt-query" placeholder="Enter query" ></textarea>
+          <!-- <input type="text" id="cnt-query" name="text" placeholder="Suggestion"> -->
+          <center><button id="cnt-button" class="submit">SUBMIT</button></center>
+          
+        </div>
+      </div>
+      <script src="./CONTACT.js"></script>
+      </body>
+      </html>
